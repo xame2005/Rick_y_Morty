@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "callback": "node src/callback/index.js",
-    "challenge": "node src/callback/challenge.js"
+    "challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js"
   },
   "author": "Samuel Gonzalez",
   "license": "ISC",
