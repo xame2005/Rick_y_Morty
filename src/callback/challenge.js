@@ -22,7 +22,7 @@ function fetchData(url_api, callback) {
         //2: request received
         //3: processing request
         //4: request finished and response is ready
-        if (xhttp.readyState === 4);{
+        if (xhttp.readyState === 4){
             if (xhttp.status ===200){
                 callback (null, JSON.parse(xhttp.responseText));
             } else {
